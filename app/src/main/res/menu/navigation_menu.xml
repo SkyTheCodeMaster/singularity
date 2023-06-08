@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_main"
+        android:title="Main" />
+    <item
+        android:id="@+id/nav_gps"
+        android:title="GPS" />
+    <!--<item
+        android:id="@+id/nav_srv_status"
+        android:title="Server Status" />-->
+</menu>
