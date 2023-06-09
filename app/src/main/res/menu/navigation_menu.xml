@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="HardcodedText">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/nav_main"
-        android:title="Main" />
+        android:id="@+id/main"
+        android:icon="@drawable/ic_home_24"
+        android:title="Main"  />
     <item
-        android:id="@+id/nav_gps"
+        android:id="@+id/gps"
+        android:icon="@drawable/ic_gps_24"
         android:title="GPS" />
-    <!--<item
-        android:id="@+id/nav_srv_status"
-        android:title="Server Status" />-->
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_24"
+        android:title="Settings" />
 </menu>
